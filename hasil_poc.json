@@ -1,0 +1,48 @@
+{
+  "n_data": 6000,
+  "agreement_persen": 94.7,
+  "agreement_per_hara": {
+    "Dosis_N": 100.0,
+    "Dosis_P": 98.6,
+    "Dosis_K": 95.8
+  },
+  "ambang_deviasi": "12,5% (di tengah toleransi SRS 10-15%)",
+  "r2_per_hara": {
+    "Dosis_N": 0.989,
+    "Dosis_P": 0.991,
+    "Dosis_K": 0.942
+  },
+  "mae_per_hara_kg": {
+    "Dosis_N": 3.7,
+    "Dosis_P": 2.5,
+    "Dosis_K": 2.1
+  },
+  "cv_waktu_detik": 3.9,
+  "contoh_prediksi": {
+    "input": {
+      "pH": 7.21,
+      "N_persen": 0.523,
+      "P_ppm": 63.1,
+      "K_me100g": 0.199,
+      "Tekstur": "Lempung Liat",
+      "Komoditas": "Padi",
+      "Target_Hasil": 4.6,
+      "Musim": "Kemarau"
+    },
+    "dosis_prediksi_kg_ha": [
+      211.9,
+      85.4,
+      44.1
+    ],
+    "dosis_paketar_kg_ha": [
+      209.5,
+      85.8,
+      42.9
+    ],
+    "keyakinan_model": 0.93,
+    "guardrail_rentang_resmi": "Padi: N 150-250, P 50-100, K 25-75 kg/ha",
+    "dalam_rentang_aman": true,
+    "latensi_ms": 64.5
+  },
+  "deteksi_luar_sebaran": true
+}
